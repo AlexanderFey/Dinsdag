@@ -31,4 +31,5 @@ public class Point {
     public static String getCOLOR() {
         return COLOR;
     }
+
 }
