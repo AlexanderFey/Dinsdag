@@ -1,8 +1,9 @@
 package Weekdag;
+import Weekdag.Dagen.*;
 
 public class DagenDemo {
     public static void main(String[] args) {
-        for(Dagen.Day day: Dagen.Day.values ()){
+        for(Day day: Day.values ()){
             System.out.println (day);
         }
     }
