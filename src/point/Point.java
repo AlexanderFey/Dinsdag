@@ -1,3 +1,5 @@
+package point;
+
 /**
  * @author Alexander Feyaerts
  * @version 1.0 21/11/2017 13:41
@@ -18,11 +20,15 @@ public class Point {
         count++;
     }
 
-    public static final String COLOR = "red";
+    private static final String COLOR = "red";
 
-    public static int count = 0;
+    private static int count = 0;
 
     public static int getCount() {
         return count;
+    }
+
+    public static String getCOLOR() {
+        return COLOR;
     }
 }
